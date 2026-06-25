@@ -31,15 +31,17 @@
         p { font-size: 1.1rem; color: #94a3b8; margin-bottom: 30px; line-height: 1.6; }
         .form-container {
             width: 100%;
-            height: 320px; /* Adjust height based on form appearance */
+            height: 380px; 
             overflow: hidden;
             border-radius: 8px;
+            background: #ffffff; /* Gives the form fields a clean white contrast card look */
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.06);
         }
         iframe {
             width: 100%;
-            height: 100%;
+            height: 140%; /* Pushes the main theme footer completely out of the viewport window */
             border: none;
-            background: transparent;
+            margin-top: -190px; /* Margins out the top header logo and navigation links cleanly */
         }
     </style>
 </head>
@@ -50,8 +52,8 @@
         <p>We are busy building a space dedicated to healthy, comfortable, and highly productive workspaces. Sign up below to be notified the moment we launch!</p>
         
         <div class="form-container">
-            <!-- EMBEDDED SUREFORMS FROM MAIN SITE -->
-            <iframe src="https://yekhareedo.in" title="Sign Up Form"></iframe>
+            <!-- EXACT FORWARD ROUTE INTEGRATION -->
+            <iframe src="https://yekhareedo.in/ergonomic-work-setup-form/" title="Sign Up Form" scrolling="no"></iframe>
         </div>
     </div>
 
