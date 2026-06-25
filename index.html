@@ -19,8 +19,9 @@
         .container {
             text-align: center;
             max-width: 600px;
+            width: 100%;
             background: rgba(255, 255, 255, 0.03);
-            padding: 40px;
+            padding: 40px 30px;
             border-radius: 16px;
             box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
             backdrop-filter: blur(5px);
@@ -29,13 +30,17 @@
         h1 { font-size: 2.5rem; margin-bottom: 15px; color: #38bdf8; font-weight: 700; }
         p { font-size: 1.1rem; color: #94a3b8; margin-bottom: 30px; line-height: 1.6; }
         .form-container {
-            background: rgba(255, 255, 255, 0.05);
-            padding: 20px;
+            width: 100%;
+            height: 320px; /* Adjust height based on form appearance */
+            overflow: hidden;
             border-radius: 8px;
-            border: 1px dashed #38bdf8;
         }
-        /* Temporary placeholder styling */
-        .placeholder-text { color: #f59e0b; font-size: 0.9rem; font-style: italic; }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            background: transparent;
+        }
     </style>
 </head>
 <body>
@@ -45,9 +50,8 @@
         <p>We are busy building a space dedicated to healthy, comfortable, and highly productive workspaces. Sign up below to be notified the moment we launch!</p>
         
         <div class="form-container">
-            <!-- MILESWEB FORM START -->
-            <p class="placeholder-text">💡 MilesWeb subscription form code will be inserted right here in the next step!</p>
-            <!-- MILESWEB FORM END -->
+            <!-- EMBEDDED SUREFORMS FROM MAIN SITE -->
+            <iframe src="https://yekhareedo.in" title="Sign Up Form"></iframe>
         </div>
     </div>
 
